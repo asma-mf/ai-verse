@@ -1,0 +1,4431 @@
+{
+  "meta": {
+    "version": "3.0.0",
+    "lastUpdated": "2026-06-26"
+  },
+  "tools": [
+    {
+      "id": 1,
+      "name": "ChatGPT",
+      "description": "AI chatbot for writing, coding, learning, and creative conversations.",
+      "url": "https://chat.openai.com/",
+      "categories": [
+        "Text & Writing",
+        "Coding & Dev",
+        "Productivity"
+      ],
+      "keywords": [
+        "OpenAI",
+        "GPT-4",
+        "GPT-4o",
+        "GPT-3",
+        "chat GPT",
+        "chatGPT",
+        "AI chatbot",
+        "text generation",
+        "coding assistant",
+        "writing assistant",
+        "DALL-E",
+        "image generation",
+        "conversational AI",
+        "language model",
+        "LLM",
+        "open ai",
+        "openai chat",
+        "gpt4",
+        "gpt 4",
+        "plugins",
+        "custom GPT",
+        "ChatGPT Plus"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/chatgpt-dark.svg",
+        "light": "ai-tools/logo/svg/chatgpt-light.svg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Gemini",
+      "description": "Google AI for text, images, video, and code reasoning.",
+      "url": "https://gemini.google.com/",
+      "categories": [
+        "Text & Writing",
+        "Image Generation",
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "Google",
+        "Gemini AI",
+        "Gemini Advanced",
+        "Gemini Ultra",
+        "Gemini Pro",
+        "DeepMind",
+        "Google DeepMind",
+        "multimodal",
+        "video analysis",
+        "Google Workspace",
+        "reasoning",
+        "Bard",
+        "Google Bard",
+        "gemini 1.5",
+        "gemini 2.0",
+        "Google AI",
+        "long context",
+        "1 million tokens"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/gemini.png",
+        "light": "ai-tools/logo/png/gemini.png"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Chat.Z.ai",
+      "description": "AI coding assistant for automation, development, and debugging.",
+      "url": "https://chat.z.ai/",
+      "categories": [
+        "Coding & Dev",
+        "Productivity"
+      ],
+      "keywords": [
+        "AI coding",
+        "automation",
+        "software development",
+        "debugging",
+        "workflow",
+        "IDE",
+        "programming",
+        "code assistant",
+        "AI chat",
+        "Z.ai platform"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/chatz.svg",
+        "light": "ai-tools/logo/svg/chatz.svg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Claude",
+      "description": "AI assistant for writing, reasoning, and research by Anthropic.",
+      "url": "https://claude.ai/",
+      "categories": [
+        "Text & Writing",
+        "Research & Analysis",
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "Anthropic",
+        "Claude AI",
+        "Claude 3",
+        "Claude 3.5",
+        "Claude Sonnet",
+        "Claude Opus",
+        "Claude Haiku",
+        "summarization",
+        "analysis",
+        "reasoning",
+        "context window",
+        "long-form writing",
+        "document analysis",
+        "safe AI",
+        "constitutional AI",
+        "100k context",
+        "artifacts",
+        "code generation"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/claude.png",
+        "light": "ai-tools/logo/png/claude.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Gamma",
+      "description": "AI-powered platform for creating slides, websites, and documents.",
+      "url": "https://gamma.app/",
+      "categories": [
+        "Productivity",
+        "Design",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "presentations",
+        "slides",
+        "website builder",
+        "deck design",
+        "visual storytelling",
+        "AI presentation",
+        "gamma app",
+        "gamma AI",
+        "slide deck",
+        "pitch deck",
+        "AI slides",
+        "document builder",
+        "card layout"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/gamma.png",
+        "light": "ai-tools/logo/png/gamma.png"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Image.Z.ai",
+      "description": "AI image generator and editing platform for designers.",
+      "url": "https://image.z.ai/",
+      "categories": [
+        "Image Generation",
+        "Design"
+      ],
+      "keywords": [
+        "text-to-image",
+        "AI art",
+        "photo editing",
+        "illustration",
+        "graphics",
+        "creative design",
+        "image generator",
+        "Z.ai images",
+        "AI image tool",
+        "image editing"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/chatz.svg",
+        "light": "ai-tools/logo/svg/chatz.svg"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Audio.Z.ai",
+      "description": "AI voice, text-to-speech, and sound enhancement tools.",
+      "url": "https://audio.z.ai/",
+      "categories": [
+        "Audio & Voice"
+      ],
+      "keywords": [
+        "AI voice",
+        "TTS",
+        "voiceover",
+        "sound editing",
+        "speech synthesis",
+        "audio tools",
+        "text to speech",
+        "Z.ai audio",
+        "AI audio platform",
+        "voice generation"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/chatz.svg",
+        "light": "ai-tools/logo/svg/chatz.svg"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Canva AI",
+      "description": "AI graphic design suite for photos, videos, and branding.",
+      "url": "https://www.canva.com/ai/",
+      "categories": [
+        "Design",
+        "Marketing",
+        "Image Generation"
+      ],
+      "keywords": [
+        "graphic design",
+        "photo editing",
+        "social media",
+        "branding",
+        "templates",
+        "AI design",
+        "presentation",
+        "video editing",
+        "logo maker",
+        "poster maker",
+        "Canva Magic Studio",
+        "Magic Write",
+        "text to image",
+        "background remover",
+        "infographic",
+        "flyer maker"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/canva.png",
+        "light": "ai-tools/logo/png/canva.png"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Midjourney",
+      "description": "AI art generator for high-quality, creative image outputs.",
+      "url": "https://www.midjourney.com/",
+      "categories": [
+        "Image Generation",
+        "Design"
+      ],
+      "keywords": [
+        "AI art",
+        "digital art",
+        "creative design",
+        "photorealism",
+        "concept art",
+        "Discord",
+        "image generation",
+        "text-to-image",
+        "AI illustration",
+        "MJ",
+        "midj",
+        "fantasy art",
+        "portrait generation",
+        "style reference",
+        "prompt engineering",
+        "v6",
+        "subscription art"
+      ],
+      "pricing": [
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/midjourney.png",
+        "light": "ai-tools/logo/png/midjourney.png"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Runway",
+      "description": "AI video generator and editor for creators and filmmakers.",
+      "url": "https://runwayml.com/",
+      "categories": [
+        "Video & Animation",
+        "Image Generation"
+      ],
+      "keywords": [
+        "Gen-2",
+        "Gen-3",
+        "AI video",
+        "filmmaking",
+        "motion brush",
+        "green screen",
+        "video editing",
+        "text-to-video",
+        "image-to-video",
+        "RunwayML",
+        "video generation",
+        "inpainting",
+        "cinematic AI",
+        "video effects",
+        "VFX"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/runway.png",
+        "light": "ai-tools/logo/png/runway.png"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Perplexity",
+      "description": "AI search engine delivering real-time, cited answers online.",
+      "url": "https://www.perplexity.ai/",
+      "categories": [
+        "Research & Analysis",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "AI search",
+        "web browsing",
+        "citations",
+        "news",
+        "academic",
+        "question answering",
+        "real-time search",
+        "perplexity AI",
+        "perplexity pro",
+        "source grounding",
+        "research assistant",
+        "AI answers",
+        "fact checking",
+        "web search AI",
+        "no hallucination"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/perplexity.png",
+        "light": "ai-tools/logo/png/perplexity.png"
+      }
+    },
+    {
+      "id": 12,
+      "name": "ElevenLabs",
+      "description": "AI voice generator for dubbing, narration, and audiobooks.",
+      "url": "https://elevenlabs.io/",
+      "categories": [
+        "Audio & Voice"
+      ],
+      "keywords": [
+        "voice cloning",
+        "narration",
+        "audiobooks",
+        "dubbing",
+        "localization",
+        "realistic speech",
+        "text-to-speech",
+        "TTS",
+        "eleven labs",
+        "voice synthesis",
+        "multilingual TTS",
+        "AI voiceover",
+        "speech generation",
+        "voice AI",
+        "podcast voice"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/elevenlabs.png",
+        "light": "ai-tools/logo/png/elevenlabs.png"
+      }
+    },
+    {
+      "id": 13,
+      "name": "GitHub Copilot",
+      "description": "AI code completion tool integrated into major IDEs.",
+      "url": "https://github.com/features/copilot",
+      "categories": [
+        "Coding & Dev",
+        "Productivity"
+      ],
+      "keywords": [
+        "GitHub",
+        "coding",
+        "autocomplete",
+        "pair programming",
+        "code suggestions",
+        "developer AI",
+        "GitHub Copilot Chat",
+        "VS Code extension",
+        "JetBrains",
+        "IntelliJ",
+        "code review",
+        "AI coding assistant",
+        "Copilot X",
+        "Microsoft",
+        "code completion",
+        "unit tests",
+        "pull requests"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/github-copilot.png",
+        "light": "ai-tools/logo/png/github-copilot.png"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Suno",
+      "description": "Generate songs with lyrics, vocals, and music using AI.",
+      "url": "https://suno.com/",
+      "categories": [
+        "Audio & Voice"
+      ],
+      "keywords": [
+        "AI music",
+        "song generation",
+        "lyrics",
+        "vocals",
+        "composition",
+        "soundtrack",
+        "music generation",
+        "AI songwriter",
+        "suno AI",
+        "suno music",
+        "beat generation",
+        "original songs",
+        "music from text",
+        "instrumental",
+        "genre"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/suno.png",
+        "light": "ai-tools/logo/png/suno.png"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Leonardo.ai",
+      "description": "Create game assets and art with AI-powered design tools.",
+      "url": "https://leonardo.ai/",
+      "categories": [
+        "Image Generation",
+        "Design"
+      ],
+      "keywords": [
+        "AI art",
+        "game assets",
+        "textures",
+        "stable diffusion",
+        "concept art",
+        "3D design",
+        "Leonardo AI",
+        "text-to-image",
+        "image generation",
+        "AI illustration",
+        "fine-tuning",
+        "custom models",
+        "game dev",
+        "character design",
+        "environment art"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/leonardo.png",
+        "light": "ai-tools/logo/png/leonardo.png"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Microsoft Copilot",
+      "description": "AI productivity assistant for Microsoft 365 and Windows.",
+      "url": "https://copilot.microsoft.com/",
+      "categories": [
+        "Productivity",
+        "Text & Writing",
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "Microsoft 365",
+        "Word",
+        "Excel",
+        "Windows",
+        "Office AI",
+        "Copilot",
+        "business tools",
+        "Microsoft AI",
+        "Bing AI",
+        "Teams",
+        "PowerPoint AI",
+        "Outlook AI",
+        "enterprise AI",
+        "Office 365"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/microsoft-copilot.png",
+        "light": "ai-tools/logo/png/microsoft-copilot.png"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Notion AI",
+      "description": "AI-powered writing and database tools integrated with Notion.",
+      "url": "https://www.notion.so/product/ai",
+      "categories": [
+        "Productivity",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "Notion",
+        "AI writing",
+        "summarization",
+        "organization",
+        "notes",
+        "database",
+        "notion workspace",
+        "AI notes",
+        "knowledge base",
+        "wiki",
+        "project management",
+        "notion AI",
+        "document editing",
+        "team collaboration"
+      ],
+      "pricing": [
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/notion.png",
+        "light": "ai-tools/logo/png/notion.png"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Stable Diffusion",
+      "description": "Open-source text-to-image generator for customizable AI art.",
+      "url": "https://stability.ai/",
+      "categories": [
+        "Image Generation",
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "AI art",
+        "open source",
+        "SDXL",
+        "model training",
+        "Python",
+        "stable diffusion",
+        "text-to-image",
+        "Stability AI",
+        "self-hosted",
+        "comfyui",
+        "automatic1111",
+        "local AI",
+        "fine-tune",
+        "LoRA",
+        "DreamBooth",
+        "img2img",
+        "inpainting",
+        "image synthesis"
+      ],
+      "pricing": [
+        "Free",
+        "Open Source"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/stability.png",
+        "light": "ai-tools/logo/png/stability.png"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Jasper",
+      "description": "AI copywriting assistant for marketing, blogs, and SEO content.",
+      "url": "https://www.jasper.ai/",
+      "categories": [
+        "Text & Writing",
+        "Marketing"
+      ],
+      "keywords": [
+        "copywriting",
+        "SEO",
+        "marketing",
+        "brand voice",
+        "social media",
+        "blog writing",
+        "AI writer",
+        "Jasper AI",
+        "content marketing",
+        "ad copy",
+        "email marketing",
+        "product descriptions",
+        "long-form content",
+        "templates"
+      ],
+      "pricing": [
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/jasper.png",
+        "light": "ai-tools/logo/png/jasper.png"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Hugging Face",
+      "description": "Platform to share, explore, and host AI models online.",
+      "url": "https://huggingface.co/",
+      "categories": [
+        "Coding & Dev",
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "AI models",
+        "datasets",
+        "transformers",
+        "NLP",
+        "model hosting",
+        "AI community",
+        "machine learning",
+        "open source models",
+        "HF",
+        "hugging face hub",
+        "model cards",
+        "inference API",
+        "spaces",
+        "BERT",
+        "LLM hosting",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/huggingface.png",
+        "light": "ai-tools/logo/png/huggingface.png"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Pika",
+      "description": "AI video creator for text-to-video animation and editing.",
+      "url": "https://pika.art/",
+      "categories": [
+        "Video & Animation"
+      ],
+      "keywords": [
+        "text-to-video",
+        "AI animation",
+        "motion",
+        "cinematic",
+        "effects",
+        "AI video",
+        "video generation",
+        "Pika Labs",
+        "image-to-video",
+        "lip sync",
+        "video editing",
+        "short videos",
+        "social media video",
+        "pikart"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/pika.png",
+        "light": "ai-tools/logo/png/pika.png"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Grammarly",
+      "description": "AI writing assistant improving grammar, tone, and clarity.",
+      "url": "https://www.grammarly.com/",
+      "categories": [
+        "Text & Writing",
+        "Productivity"
+      ],
+      "keywords": [
+        "grammar",
+        "proofreading",
+        "plagiarism",
+        "writing",
+        "spell check",
+        "tone correction",
+        "grammar checker",
+        "spell checker",
+        "writing improvement",
+        "essay checker",
+        "clarity",
+        "conciseness",
+        "grammerly",
+        "gramatly",
+        "browser extension",
+        "email writing",
+        "business writing"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/grammarly.png",
+        "light": "ai-tools/logo/png/grammarly.png"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Luma Labs AI",
+      "description": "3D generation and capture platform using NeRF technology.",
+      "url": "https://lumalabs.ai/",
+      "categories": [
+        "3D & AR/VR",
+        "Video & Animation"
+      ],
+      "keywords": [
+        "3D capture",
+        "NeRF",
+        "VFX",
+        "Dream Machine",
+        "Gaussian Splatting",
+        "scenes",
+        "video generation",
+        "text-to-video",
+        "Luma AI",
+        "luma dream machine",
+        "3D reconstruction",
+        "photorealistic video",
+        "AI video"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/luma-labs.png",
+        "light": "ai-tools/logo/png/luma-labs.png"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Replit AI",
+      "description": "AI coding assistant built into Replit’s online IDE.",
+      "url": "https://replit.com/ai",
+      "categories": [
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "Replit",
+        "coding",
+        "browser IDE",
+        "collaboration",
+        "learning",
+        "deployment",
+        "online IDE",
+        "AI coding",
+        "code assistant",
+        "repl",
+        "Python",
+        "JavaScript",
+        "Ghostwriter",
+        "cloud coding",
+        "student coding"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/replit.png",
+        "light": "ai-tools/logo/png/replit.png"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Reka Chat",
+      "description": "Advanced multimodal AI assistant for text, image, and video.",
+      "url": "https://app.reka.ai/chat",
+      "categories": [
+        "Text & Writing",
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "Reka Chat",
+        "Reka AI",
+        "multimodal chatbot",
+        "AI assistant",
+        "enterprise AI",
+        "visual reasoning",
+        "Reka Core",
+        "Reka Flash",
+        "text chat",
+        "document analysis"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/reka.png",
+        "light": "ai-tools/logo/png/reka.png"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Luma AI",
+      "description": "AI for realistic 3D capture and model generation.",
+      "url": "https://luma.ai/",
+      "categories": [
+        "3D & AR/VR",
+        "Image Generation"
+      ],
+      "keywords": [
+        "3D models",
+        "scanning",
+        "game assets",
+        "mobile capture",
+        "photogrammetry",
+        "Genie",
+        "luma AI",
+        "3D from photo",
+        "NeRF capture",
+        "iPhone 3D scan"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/luma.png",
+        "light": "ai-tools/logo/png/luma.png"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Luna AI",
+      "description": "AI video creation suite for marketing and branding.",
+      "url": "https://lunaai.video/",
+      "categories": [
+        "Video & Animation",
+        "Marketing"
+      ],
+      "keywords": [
+        "video generation",
+        "avatars",
+        "social media",
+        "ads",
+        "promo",
+        "AI video",
+        "luna AI",
+        "marketing video",
+        "brand video",
+        "ad video maker"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/luna-dark.png",
+        "light": "ai-tools/logo/png/luna-light.png"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Reka Vision",
+      "description": "AI visual model for image and video understanding.",
+      "url": "https://app.reka.ai/vision",
+      "categories": [
+        "Research & Analysis",
+        "Image Generation"
+      ],
+      "keywords": [
+        "Reka Vision",
+        "visual AI",
+        "image recognition",
+        "video analysis",
+        "AI search",
+        "Reka AI",
+        "vision model",
+        "image understanding",
+        "multimodal AI",
+        "object detection"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/reka.png",
+        "light": "ai-tools/logo/png/reka.png"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Reka Research",
+      "description": "Research hub for testing Reka’s multimodal AI models.",
+      "url": "https://app.reka.ai/research",
+      "categories": [
+        "Research & Analysis",
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "Reka Research",
+        "AI experiments",
+        "model testing",
+        "enterprise AI",
+        "Reka Flash",
+        "edge AI",
+        "Reka AI",
+        "AI research platform",
+        "model evaluation",
+        "AI benchmarking"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/reka.png",
+        "light": "ai-tools/logo/png/reka.png"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Reka Speech",
+      "description": "AI voice model for speech and audio generation tasks.",
+      "url": "https://app.reka.ai/speech",
+      "categories": [
+        "Audio & Voice"
+      ],
+      "keywords": [
+        "Reka Speech",
+        "TTS",
+        "voice AI",
+        "speech synthesis",
+        "audio model",
+        "voice recognition",
+        "Reka AI",
+        "AI speech model",
+        "voice generation",
+        "multilingual TTS"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/reka.png",
+        "light": "ai-tools/logo/png/reka.png"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Reka Clip",
+      "description": "AI tool to create video clips directly from text prompts.",
+      "url": "https://creator.reka.ai/",
+      "categories": [
+        "Video & Animation",
+        "Marketing"
+      ],
+      "keywords": [
+        "Reka Clip",
+        "text-to-video",
+        "AI video",
+        "content creation",
+        "video generation",
+        "editing",
+        "Reka AI",
+        "short video",
+        "clip maker",
+        "AI clip creator"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/reka.png",
+        "light": "ai-tools/logo/png/reka.png"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Ali Tongyi",
+      "description": "Alibaba’s versatile AI assistant for text generation, translation, and multimodal analysis.",
+      "url": "https://tongyi.aliyun.com/",
+      "categories": [
+        "Text & Writing",
+        "Productivity"
+      ],
+      "keywords": [
+        "Alibaba",
+        "Tongyi Qianwen",
+        "Translation",
+        "Multimodal",
+        "China AI",
+        "Assistant",
+        "Chinese LLM",
+        "Qianwen",
+        "Alibaba Cloud",
+        "Baidu alternative"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/tongyi.svg",
+        "light": "ai-tools/logo/svg/tongyi.svg"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Doubao",
+      "description": "Multimodal AI assistant for conversation, content creation, and image generation.",
+      "url": "https://www.doubao.com/",
+      "categories": [
+        "Text & Writing",
+        "Image Generation"
+      ],
+      "keywords": [
+        "ByteDance",
+        "Doubao",
+        "Assistant",
+        "China AI",
+        "Chatbot",
+        "Content Creation",
+        "ByteDance AI",
+        "TikTok AI",
+        "Chinese chatbot",
+        "image generation China"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/doubao.png",
+        "light": "ai-tools/logo/png/doubao.png"
+      }
+    },
+    {
+      "id": 34,
+      "name": "DeepSeek",
+      "description": "Advanced open-source AI models specializing in reasoning, coding, and data analysis.",
+      "url": "https://chat.deepseek.com/",
+      "categories": [
+        "Text & Writing",
+        "Coding & Dev",
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "DeepSeek",
+        "Reasoning",
+        "Coding",
+        "Open Source",
+        "LLM",
+        "Math",
+        "DeepSeek R1",
+        "DeepSeek V2",
+        "Chinese AI",
+        "chain-of-thought",
+        "deep seek",
+        "AI reasoning model"
+      ],
+      "pricing": [
+        "Free",
+        "Freemium",
+        "Open Source"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/deepseek.svg",
+        "light": "ai-tools/logo/svg/deepseek.svg"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Tencent Yuanbao",
+      "description": "Tencent’s AI assistant integrated with WeChat for search, productivity, and social interaction.",
+      "url": "https://yuanbao.tencent.com/chat",
+      "categories": [
+        "Text & Writing",
+        "Productivity"
+      ],
+      "keywords": [
+        "Tencent",
+        "WeChat",
+        "Yuanbao",
+        "Assistant",
+        "Search",
+        "China AI",
+        "Tencent AI",
+        "Chinese assistant",
+        "Hunyuan",
+        "social AI"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/tencent-yuanbao.svg",
+        "light": "ai-tools/logo/svg/tencent-yuanbao.svg"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Nova AI",
+      "description": "Integrates multiple models like GPT, Claude, and Gemini for cross-platform productivity.",
+      "url": "https://chat.novaapp.ai/",
+      "categories": [
+        "Text & Writing",
+        "Productivity"
+      ],
+      "keywords": [
+        "GPT-4o",
+        "Claude",
+        "Gemini",
+        "AI assistant",
+        "writing assistant",
+        "cross-platform",
+        "personal bot",
+        "multilingual"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/nova.png",
+        "light": "ai-tools/logo/png/nova.png"
+      }
+    },
+    {
+      "id": 37,
+      "name": "OCR.Z.ai",
+      "description": "High-accuracy AI for complex document parsing, png, jpg, jpeg, pdf.",
+      "url": "https://ocr.z.ai/",
+      "categories": [
+        "Research & Analysis",
+        "Productivity"
+      ],
+      "keywords": [
+        "OCR",
+        "text extraction",
+        "pdf extraction",
+        "pdf to text",
+        "table recognition",
+        "document understanding",
+        "digitization",
+        "AI vision",
+        "optical character recognition",
+        "document parser",
+        "image to text",
+        "scan to text",
+        "handwriting recognition"
+      ],
+      "pricing": [
+        "Free",
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/chatz.svg",
+        "light": "ai-tools/logo/svg/chatz.svg"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Qodo",
+      "description": "AI coding platform for automated code reviews, unit test generation, and pull request analysis.",
+      "url": "https://www.qodo.ai/",
+      "categories": [
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "AI code review",
+        "unit tests",
+        "PR-Agent",
+        "code integrity",
+        "test generation",
+        "agentic workflows",
+        "software quality",
+        "code testing",
+        "qodo AI",
+        "coverage",
+        "CI/CD",
+        "pull request review",
+        "automated testing"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/webp/qodo.webp",
+        "light": "ai-tools/logo/webp/qodo.webp"
+      }
+    },
+    {
+      "id": 39,
+      "name": "Cursor",
+      "description": "AI-native code editor built on VS Code with deep indexing and agentic editing.",
+      "url": "https://www.cursor.com/",
+      "categories": [
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "IDE",
+        "VS Code",
+        "codebase indexing",
+        "Composer",
+        "AI coding",
+        "pair programming",
+        "cursor IDE",
+        "cursor AI",
+        "AI editor",
+        "code assistant",
+        "autocomplete",
+        "Claude integration",
+        "GPT integration",
+        "tab completion",
+        "context-aware coding"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/cursor.png",
+        "light": "ai-tools/logo/png/cursor.png"
+      }
+    },
+    {
+      "id": 40,
+      "name": "HeyGen",
+      "description": "AI video platform for creating realistic talking avatars and instant translations.",
+      "url": "https://www.heygen.com/",
+      "categories": [
+        "Video & Animation",
+        "Marketing"
+      ],
+      "keywords": [
+        "AI avatars",
+        "video translation",
+        "lip-sync",
+        "business video",
+        "personalized video",
+        "heygen AI",
+        "AI spokesperson",
+        "video localization",
+        "digital human",
+        "video dubbing",
+        "instant avatar",
+        "marketing video",
+        "corporate video"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/webp/heygen.webp",
+        "light": "ai-tools/logo/webp/heygen.webp"
+      }
+    },
+    {
+      "id": 41,
+      "name": "v0.dev",
+      "description": "Generative UI tool by Vercel creating React components from text prompts.",
+      "url": "https://v0.dev/",
+      "categories": [
+        "Coding & Dev",
+        "Design"
+      ],
+      "keywords": [
+        "generative UI",
+        "Vercel",
+        "React",
+        "Tailwind CSS",
+        "web development",
+        "frontend",
+        "UI generation",
+        "component builder",
+        "v0",
+        "shadcn",
+        "Next.js",
+        "AI UI builder",
+        "prototype",
+        "design to code"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/v0.dev.png",
+        "light": "ai-tools/logo/png/v0.dev.png"
+      }
+    },
+    {
+      "id": 42,
+      "name": "Elicit",
+      "description": "AI research assistant automating literature reviews and extracting data from papers.",
+      "url": "https://elicit.com/",
+      "categories": [
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "literature review",
+        "scientific papers",
+        "citations",
+        "data extraction",
+        "academic search",
+        "elicit AI",
+        "systematic review",
+        "research automation",
+        "paper summarizer",
+        "evidence synthesis",
+        "AI research tool"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/elicit.png",
+        "light": "ai-tools/logo/png/elicit.png"
+      }
+    },
+    {
+      "id": 43,
+      "name": "Kling AI",
+      "description": "Advanced video generator producing high-definition, physics-compliant cinematic clips.",
+      "url": "https://kling.ai/",
+      "categories": [
+        "Video & Animation"
+      ],
+      "keywords": [
+        "text-to-video",
+        "cinematic AI",
+        "video generation",
+        "high resolution",
+        "Sora rival",
+        "kling video",
+        "kling AI",
+        "China AI video",
+        "image-to-video",
+        "realistic motion",
+        "4K video",
+        "physics simulation"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/klingai.png",
+        "light": "ai-tools/logo/png/klingai.png"
+      }
+    },
+    {
+      "id": 44,
+      "name": "ChatPDF",
+      "description": "Chat with your PDFs. Upload PDFs and ask questions to get instant summaries and answers.",
+      "url": "https://www.chatpdf.com/",
+      "categories": [
+        "Productivity",
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "pdf chat",
+        "document ai",
+        "pdf summarizer",
+        "research assistant",
+        "ask pdf",
+        "chat with pdf",
+        "PDF Q&A",
+        "document reader",
+        "AI document",
+        "study tool",
+        "chatpdf"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/chat-pdf.png",
+        "light": "ai-tools/logo/png/chat-pdf.png"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Grok",
+      "description": "AI assistant by xAI, featuring real-time knowledge access through X and a distinctive personality.",
+      "url": "https://grok.com/",
+      "categories": [
+        "Text & Writing",
+        "Research & Analysis",
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "xAI",
+        "Elon Musk",
+        "Real-time",
+        "X",
+        "Twitter",
+        "Chatbot",
+        "Humor",
+        "Reasoning",
+        "grok AI",
+        "Grok 2",
+        "Grok 3",
+        "live data",
+        "X integration",
+        "uncensored AI",
+        "witty AI"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/grok.png",
+        "light": "ai-tools/logo/png/grok.png"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Arena",
+      "description": "Open platform for benchmarking LLMs via blind comparisons.",
+      "url": "https://arena.ai/",
+      "categories": [
+        "Research & Analysis",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "lmarena",
+        "arena",
+        "LMSYS",
+        "benchmark",
+        "leaderboard",
+        "LLM evaluation",
+        "blind test",
+        "model comparison",
+        "chatbot arena",
+        "AI ranking",
+        "ELO score",
+        "LM Arena",
+        "AI battle",
+        "model leaderboard"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/arena-ai.jpg",
+        "light": "ai-tools/logo/jpg/arena-ai.jpg"
+      }
+    },
+    {
+      "id": 47,
+      "name": "NotebookLM",
+      "description": "AI research assistant, organize documents, generate summaries, and answer questions based on uploaded sources.",
+      "url": "https://notebooklm.google/",
+      "categories": [
+        "Research & Analysis",
+        "Productivity"
+      ],
+      "keywords": [
+        "Google",
+        "llm",
+        "notebookllm",
+        "research assistant",
+        "note-taking",
+        "summarization",
+        "documents",
+        "source grounding",
+        "notebook LM",
+        "podcast generation",
+        "audio overview",
+        "PDF upload",
+        "Google NotebookLM",
+        "AI notebook",
+        "document Q&A"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/notebooklm.png",
+        "light": "ai-tools/logo/png/notebooklm.png"
+      }
+    },
+    {
+      "id": 48,
+      "name": "Poe",
+      "description": "Quora platform for interacting with multiple AI models like GPT, Claude, and others.",
+      "url": "https://poe.com/",
+      "categories": [
+        "Text & Writing",
+        "Productivity"
+      ],
+      "keywords": [
+        "Multi-model",
+        "Quora",
+        "Chatbot",
+        "GPT",
+        "Claude",
+        "Aggregator",
+        "model hub",
+        "AI chat hub",
+        "poe AI",
+        "Gemini",
+        "Llama",
+        "AI playground",
+        "bot builder",
+        "custom bots"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/poe.png",
+        "light": "ai-tools/logo/png/poe.png"
+      }
+    },
+    {
+      "id": 49,
+      "name": "Pi AI",
+      "description": "Personal AI assistant by Inflection AI, designed for emotional intelligence and supportive conversation.",
+      "url": "https://pi.ai/",
+      "categories": [
+        "Text & Writing",
+        "Productivity"
+      ],
+      "keywords": [
+        "Inflection AI",
+        "Personal Assistant",
+        "Emotional Intelligence",
+        "Chatbot",
+        "Support",
+        "pi ai",
+        "companion AI",
+        "mental wellness AI",
+        "friendly AI",
+        "conversational AI",
+        "emotional support"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/pi.svg",
+        "light": "ai-tools/logo/svg/pi.svg"
+      }
+    },
+    {
+      "id": 50,
+      "name": "Copy.ai",
+      "description": "AI platform for generating marketing copy, blog posts, and sales emails to automate content workflows.",
+      "url": "https://www.copy.ai/",
+      "categories": [
+        "Text & Writing",
+        "Marketing"
+      ],
+      "keywords": [
+        "Copywriting",
+        "Marketing",
+        "Sales emails",
+        "Blog posts",
+        "Workflows",
+        "copy ai",
+        "AI copywriter",
+        "content automation",
+        "GTM AI",
+        "email marketing",
+        "sales copy",
+        "product descriptions"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/copy-ai.png",
+        "light": "ai-tools/logo/png/copy-ai.png"
+      }
+    },
+    {
+      "id": 51,
+      "name": "Rytr",
+      "description": "AI writing assistant that helps generate content for various use cases, known for affordability and ease of use.",
+      "url": "https://rytr.me/",
+      "categories": [
+        "Text & Writing",
+        "Marketing"
+      ],
+      "keywords": [
+        "Copywriting",
+        "Content generation",
+        "Affordable",
+        "Writing assistant",
+        "Templates",
+        "rytr AI",
+        "budget AI writer",
+        "short-form content",
+        "social captions",
+        "AI writing tool",
+        "blog ideas"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/rytr.png",
+        "light": "ai-tools/logo/png/rytr.png"
+      }
+    },
+    {
+      "id": 52,
+      "name": "Sudowrite",
+      "description": "AI writing tool specifically designed for creative writing, assisting with novels, screenplays, and storytelling.",
+      "url": "https://www.sudowrite.com/",
+      "categories": [
+        "Text & Writing",
+        "Education & Learning"
+      ],
+      "keywords": [
+        "Creative writing",
+        "Fiction",
+        "Storytelling",
+        "Novels",
+        "Screenplay",
+        "AI novelist",
+        "fantasy writing",
+        "story generator",
+        "plot ideas",
+        "character development",
+        "world building",
+        "writing prompts",
+        "sudowrite"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/sudo-write.png",
+        "light": "ai-tools/logo/png/sudo-write.png"
+      }
+    },
+    {
+      "id": 53,
+      "name": "QuillBot",
+      "description": "AI-powered paraphrasing tool and writing assistant that helps improve clarity, fluency, and grammar.",
+      "url": "https://quillbot.com/",
+      "categories": [
+        "Text & Writing",
+        "Productivity"
+      ],
+      "keywords": [
+        "Paraphrasing",
+        "Grammar",
+        "Summarizer",
+        "Citation",
+        "Writing assistant",
+        "quill bot",
+        "quillbot",
+        "rewriter",
+        "paraphrase tool",
+        "essay rewriter",
+        "AI paraphraser",
+        "academic writing"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/quillbot.png",
+        "light": "ai-tools/logo/png/quillbot.png"
+      }
+    },
+    {
+      "id": 54,
+      "name": "Writesonic",
+      "description": "AI writer for creating SEO-optimized articles, blog posts, and landing pages with a focus on marketing content.",
+      "url": "https://writesonic.com/",
+      "categories": [
+        "Text & Writing",
+        "Marketing"
+      ],
+      "keywords": [
+        "SEO content",
+        "Article writer",
+        "Landing pages",
+        "Marketing copy",
+        "Sonic",
+        "AI blogger",
+        "write sonic",
+        "writesonic AI",
+        "AI article writer",
+        "content generation",
+        "web content",
+        "blog automation"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/write-sonic.png",
+        "light": "ai-tools/logo/png/write-sonic.png"
+      }
+    },
+    {
+      "id": 55,
+      "name": "Adobe Firefly",
+      "description": "Generative AI models for creative workflows, integrated directly into Photoshop and other Adobe apps.",
+      "url": "https://www.adobe.com/products/firefly.html",
+      "categories": [
+        "Image Generation",
+        "Design"
+      ],
+      "keywords": [
+        "Adobe",
+        "Generative fill",
+        "Creative Cloud",
+        "Image generation",
+        "Photoshop",
+        "firefly AI",
+        "adobe firefly",
+        "text effects",
+        "generative recolor",
+        "AI image editing",
+        "text-to-image",
+        "design AI",
+        "vector recolor"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/adobe-firefly.svg",
+        "light": "ai-tools/logo/svg/adobe-firefly.svg"
+      }
+    },
+    {
+      "id": 56,
+      "name": "Ideogram",
+      "description": "AI image generator excelling at accurate text rendering for typography and posters.",
+      "url": "https://ideogram.ai/",
+      "categories": [
+        "Image Generation",
+        "Design"
+      ],
+      "keywords": [
+        "Typography",
+        "Text rendering",
+        "Posters",
+        "Logos",
+        "Artistic",
+        "ideogram AI",
+        "text in images",
+        "AI typography",
+        "logo design",
+        "text-to-image",
+        "poster design",
+        "banner design"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/ideogram.svg",
+        "light": "ai-tools/logo/svg/ideogram.svg"
+      }
+    },
+    {
+      "id": 57,
+      "name": "Synthesia",
+      "description": "AI video generation platform that creates videos with AI avatars from text, widely used for training and explainer videos.",
+      "url": "https://www.synthesia.io/",
+      "categories": [
+        "Video & Animation",
+        "Marketing"
+      ],
+      "keywords": [
+        "AI avatars",
+        "Video generation",
+        "Training videos",
+        "Text-to-video",
+        "Localization",
+        "synthesia AI",
+        "explainer videos",
+        "e-learning video",
+        "AI presenter",
+        "corporate training",
+        "multilingual video",
+        "HR video"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/synthesia.png",
+        "light": "ai-tools/logo/png/synthesia.png"
+      }
+    },
+    {
+      "id": 58,
+      "name": "OpusClip",
+      "description": "AI tool that repurposes long videos into short, viral clips for social media like TikTok and Reels.",
+      "url": "https://www.opus.pro/",
+      "categories": [
+        "Video & Animation",
+        "Marketing"
+      ],
+      "keywords": [
+        "Repurpose",
+        "Shorts",
+        "Reels",
+        "TikTok",
+        "Video editing",
+        "opus clip",
+        "clip repurposing",
+        "YouTube Shorts",
+        "AI clip maker",
+        "viral clips",
+        "auto captions",
+        "content repurposing"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/opus-clip.png",
+        "light": "ai-tools/logo/png/opus-clip.png"
+      }
+    },
+    {
+      "id": 59,
+      "name": "Descript",
+      "description": "Collaborative audio and video editor that works like a doc, featuring transcription, screen recording, and overdub.",
+      "url": "https://www.descript.com/",
+      "categories": [
+        "Video & Animation",
+        "Audio & Voice"
+      ],
+      "keywords": [
+        "Transcription",
+        "Podcast editing",
+        "Video editing",
+        "Overdub",
+        "Screen recording",
+        "AI editor",
+        "text-based editing",
+        "podcast tool",
+        "descript AI",
+        "filler word removal",
+        "collaboration",
+        "script editing"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/descript.svg",
+        "light": "ai-tools/logo/svg/descript.svg"
+      }
+    },
+    {
+      "id": 60,
+      "name": "Murf AI",
+      "description": "Versatile AI voice generator that creates realistic voiceovers for videos, presentations, and e-learning.",
+      "url": "https://murf.ai/",
+      "categories": [
+        "Audio & Voice",
+        "Marketing"
+      ],
+      "keywords": [
+        "Voice generator",
+        "Voiceover",
+        "TTS",
+        "Studio quality",
+        "Presentations",
+        "murf AI",
+        "AI narrator",
+        "e-learning voiceover",
+        "voice customization",
+        "realistic voices",
+        "text to speech",
+        "commercial voiceover"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/murf-ai.svg",
+        "light": "ai-tools/logo/svg/murf-ai.svg"
+      }
+    },
+    {
+      "id": 61,
+      "name": "Udio",
+      "description": "AI music generation tool allowing users to create complex, full-bodied songs with vocals and instrumentation.",
+      "url": "https://www.udio.com/",
+      "categories": [
+        "Audio & Voice"
+      ],
+      "keywords": [
+        "Music generation",
+        "Songs",
+        "Vocals",
+        "Composition",
+        "AI music",
+        "udio AI",
+        "beat making",
+        "AI songwriter",
+        "full songs",
+        "music from text",
+        "genre music"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/ico/udio.ico",
+        "light": "ai-tools/logo/ico/udio.ico"
+      }
+    },
+    {
+      "id": 62,
+      "name": "Tabnine",
+      "description": "AI code assistant that provides whole-line and full-function code completions, prioritizing privacy and security.",
+      "url": "https://www.tabnine.com/",
+      "categories": [
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "Code completion",
+        "Privacy",
+        "IDE",
+        "Developer tools",
+        "Autocomplete",
+        "tabnine AI",
+        "on-premise AI",
+        "secure coding",
+        "enterprise coding",
+        "local AI coding",
+        "VS Code plugin"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/tabnine.png",
+        "light": "ai-tools/logo/png/tabnine.png"
+      }
+    },
+    {
+      "id": 64,
+      "name": "Zapier",
+      "description": "Automation platform that connects thousands of apps, enabling users to build workflows with AI integration.",
+      "url": "https://zapier.com/",
+      "categories": [
+        "Automation & Workflows",
+        "Productivity"
+      ],
+      "keywords": [
+        "Automation",
+        "Integration",
+        "Workflow",
+        "No-code",
+        "Connectors",
+        "app automation",
+        "zapier AI",
+        "zap",
+        "trigger",
+        "action",
+        "app integration",
+        "workflow builder",
+        "API",
+        "IFTTT alternative",
+        "business automation"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/zapier.png",
+        "light": "ai-tools/logo/png/zapier.png"
+      }
+    },
+    {
+      "id": 65,
+      "name": "n8n",
+      "description": "Open-source workflow automation tool that lets technical users build complex integrations and AI workflows.",
+      "url": "https://n8n.io/",
+      "categories": [
+        "Automation & Workflows",
+        "Productivity",
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "Open source",
+        "Automation",
+        "Workflow",
+        "Self-hosted",
+        "Low-code",
+        "workflow automation",
+        "API integration",
+        "n8n workflow",
+        "Zapier alternative",
+        "node automation",
+        "JavaScript",
+        "custom workflows",
+        "data pipeline"
+      ],
+      "pricing": [
+        "Freemium",
+        "Open Source"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/n8n.png",
+        "light": "ai-tools/logo/png/n8n.png"
+      }
+    },
+    {
+      "id": 66,
+      "name": "Intercom",
+      "description": "Customer platform with AI chatbot (Fin) that resolves support issues using knowledge base articles.",
+      "url": "https://www.intercom.com/",
+      "categories": [
+        "Marketing",
+        "Productivity"
+      ],
+      "keywords": [
+        "Customer support",
+        "Chatbot",
+        "Messaging",
+        "Fin AI",
+        "CRM",
+        "customer service AI",
+        "live chat",
+        "support automation",
+        "customer platform",
+        "helpdesk AI",
+        "AI customer agent"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/intercom.png",
+        "light": "ai-tools/logo/png/intercom.png"
+      }
+    },
+    {
+      "id": 68,
+      "name": "Consensus",
+      "description": "AI search engine that searches research papers to provide answers backed by scientific evidence.",
+      "url": "https://consensus.app/",
+      "categories": [
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "Academic search",
+        "Scientific evidence",
+        "Research",
+        "Papers",
+        "Analysis",
+        "consensus AI",
+        "evidence-based",
+        "research synthesis",
+        "study search",
+        "peer review",
+        "science AI"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/consensus.png",
+        "light": "ai-tools/logo/png/consensus.png"
+      }
+    },
+    {
+      "id": 69,
+      "name": "SciSpace",
+      "description": "AI research assistant that helps understand scientific literature, simplifying papers and answering questions.",
+      "url": "https://scispace.com/",
+      "categories": [
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "Literature review",
+        "Academic",
+        "PDF analysis",
+        "Research assistant",
+        "Simplification",
+        "scispace AI",
+        "typeset",
+        "paper explainer",
+        "research paper AI",
+        "journal papers",
+        "academic AI tool"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/scispace.svg",
+        "light": "ai-tools/logo/svg/scispace.svg"
+      }
+    },
+    {
+      "id": 70,
+      "name": "Research Rabbit",
+      "description": "Visual discovery tool for academic research that visualizes networks of papers and authors.",
+      "url": "https://www.researchrabbit.ai/",
+      "categories": [
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "Visual",
+        "Discovery",
+        "Academic",
+        "Citations",
+        "Collaboration",
+        "research rabbit AI",
+        "paper discovery",
+        "citation network",
+        "related papers",
+        "literature map",
+        "author network"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/research-rabbit.png",
+        "light": "ai-tools/logo/png/research-rabbit.png"
+      }
+    },
+    {
+      "id": 71,
+      "name": "Scite",
+      "description": "Citation database using AI to classify citations, showing if they provide supporting or contrasting evidence.",
+      "url": "https://scite.ai/",
+      "categories": [
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "Citations",
+        "Smart citations",
+        "Evidence",
+        "Academic",
+        "Validation",
+        "scite AI",
+        "citation analysis",
+        "supporting evidence",
+        "contrasting evidence",
+        "research credibility",
+        "paper quality"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/scite.svg",
+        "light": "ai-tools/logo/svg/scite.svg"
+      }
+    },
+    {
+      "id": 72,
+      "name": "Julius",
+      "description": "AI data analysis tool that turns spreadsheets into visualizations, charts, and insights.",
+      "url": "https://julius.ai/",
+      "categories": [
+        "Research & Analysis",
+        "Productivity"
+      ],
+      "keywords": [
+        "Data analysis",
+        "Visualization",
+        "Spreadsheets",
+        "SQL",
+        "Charts",
+        "julius AI",
+        "data insights",
+        "CSV analysis",
+        "Python data",
+        "AI analyst",
+        "business intelligence"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/ico/julius.ico",
+        "light": "ai-tools/logo/ico/julius.ico"
+      }
+    },
+    {
+      "id": 73,
+      "name": "Glean",
+      "description": "AI-powered workplace search that connects to all company apps to find relevant information and knowledge.",
+      "url": "https://www.glean.com/",
+      "categories": [
+        "Productivity",
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "Enterprise search",
+        "Knowledge management",
+        "Workplace",
+        "RAG",
+        "Security",
+        "glean AI",
+        "employee search",
+        "company knowledge",
+        "internal search",
+        "Slack search",
+        "Google Drive search"
+      ],
+      "pricing": [
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/glean.png",
+        "light": "ai-tools/logo/png/glean.png"
+      }
+    },
+    {
+      "id": 74,
+      "name": "AdCreative.ai",
+      "description": "AI platform that generates high-converting ad creatives and social media posts for marketers.",
+      "url": "https://www.adcreative.ai/",
+      "categories": [
+        "Marketing",
+        "Design"
+      ],
+      "keywords": [
+        "Ad creatives",
+        "Social media",
+        "Conversion",
+        "Marketing",
+        "Advertising",
+        "adcreative AI",
+        "banner ads",
+        "Facebook ads",
+        "Google ads",
+        "ad performance",
+        "creative automation"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/adcreative.png",
+        "light": "ai-tools/logo/png/adcreative.png"
+      }
+    },
+    {
+      "id": 76,
+      "name": "Krea AI",
+      "description": "Generative AI platform focused on real-time image and video generation for creative professionals.",
+      "url": "https://www.krea.ai/",
+      "categories": [
+        "Image Generation",
+        "Video & Animation"
+      ],
+      "keywords": [
+        "Real-time",
+        "Image generation",
+        "Video",
+        "Design",
+        "Creative",
+        "krea AI",
+        "real-time AI art",
+        "AI canvas",
+        "generative art",
+        "live generation",
+        "AI creative tool"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/krea-dark.png",
+        "light": "ai-tools/logo/png/krea-light.png"
+      }
+    },
+    {
+      "id": 77,
+      "name": "Recraft AI",
+      "description": "AI vector art generator that creates high-quality vector images and icons suitable for professional design.",
+      "url": "https://www.recraft.ai/",
+      "categories": [
+        "Image Generation",
+        "Design"
+      ],
+      "keywords": [
+        "Vector art",
+        "Icons",
+        "SVG",
+        "Brand assets",
+        "Illustration",
+        "recraft AI",
+        "vector generator",
+        "icon generator",
+        "logo AI",
+        "AI vector",
+        "design assets"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/recraft.png",
+        "light": "ai-tools/logo/png/recraft.png"
+      }
+    },
+    {
+      "id": 78,
+      "name": "Durable",
+      "description": "AI-powered website builder that can generate a complete business website with images and copy in seconds.",
+      "url": "https://durable.co/",
+      "categories": [
+        "Productivity",
+        "Design"
+      ],
+      "keywords": [
+        "Website builder",
+        "AI",
+        "Small business",
+        "Marketing",
+        "Fast",
+        "durable AI",
+        "instant website",
+        "business website",
+        "AI web builder",
+        "30 second website",
+        "freelancer website"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/durable.png",
+        "light": "ai-tools/logo/png/durable.png"
+      }
+    },
+    {
+      "id": 79,
+      "name": "Fireflies",
+      "description": "AI notetaker for meetings that records, transcribes, and summarizes conversations.",
+      "url": "https://fireflies.ai/",
+      "categories": [
+        "Productivity",
+        "Audio & Voice"
+      ],
+      "keywords": [
+        "Meeting Notes",
+        "Transcription",
+        "Summarization",
+        "Collaboration",
+        "Zoom",
+        "Google Meet",
+        "Teams",
+        "CRM Integration"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/fireflies.png",
+        "light": "ai-tools/logo/png/fireflies.png"
+      }
+    },
+    {
+      "id": 80,
+      "name": "Granola",
+      "description": "AI-powered notepad for meetings that enhances meeting notes without the need for bots to join the call.",
+      "url": "https://www.granola.ai/",
+      "categories": [
+        "Productivity"
+      ],
+      "keywords": [
+        "Meeting notes",
+        "Notepad",
+        "Transcription",
+        "MacOS",
+        "Privacy",
+        "granola AI",
+        "AI notepad",
+        "meeting summaries",
+        "private transcription",
+        "offline notes",
+        "Mac meeting app"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/granola.png",
+        "light": "ai-tools/logo/png/granola.png"
+      }
+    },
+    {
+      "id": 81,
+      "name": "Clay",
+      "description": "Data enrichment platform that aggregates information to build comprehensive contact profiles.",
+      "url": "https://www.clay.com/",
+      "categories": [
+        "Marketing",
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "Data enrichment",
+        "Sales",
+        "CRM",
+        "Prospecting",
+        "Automation",
+        "clay AI",
+        "lead generation",
+        "B2B data",
+        "contact enrichment",
+        "outbound sales",
+        "GTM data"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/clay.png",
+        "light": "ai-tools/logo/png/clay.png"
+      }
+    },
+    {
+      "id": 82,
+      "name": "Harvey",
+      "description": "Generative AI for law firms, assisting with contract analysis, due diligence, and legal research.",
+      "url": "https://www.harvey.ai/",
+      "categories": [
+        "Research & Analysis",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "Legal AI",
+        "Law firms",
+        "Contracts",
+        "Due diligence",
+        "Compliance",
+        "harvey AI",
+        "legal tech",
+        "contract review",
+        "AI lawyer",
+        "legal research AI",
+        "litigation support"
+      ],
+      "pricing": [
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/harvey.png",
+        "light": "ai-tools/logo/png/harvey.png"
+      }
+    },
+    {
+      "id": 83,
+      "name": "Character.AI",
+      "description": "Creating and interacting with AI characters, offering open-ended conversational experiences.",
+      "url": "https://character.ai/",
+      "categories": [
+        "Text & Writing"
+      ],
+      "keywords": [
+        "Chatbots",
+        "Characters",
+        "Roleplay",
+        "Entertainment",
+        "Conversation",
+        "character AI",
+        "AI personas",
+        "fictional characters",
+        "AI friends",
+        "companionship AI",
+        "story roleplay"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/character-ai.jpg",
+        "light": "ai-tools/logo/jpg/character-ai.jpg"
+      }
+    },
+    {
+      "id": 84,
+      "name": "Anyword",
+      "description": "AI copywriting tool that uses predictive scoring to optimize marketing copy for better performance.",
+      "url": "https://anyword.com/",
+      "categories": [
+        "Marketing",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "Copywriting",
+        "Predictive scoring",
+        "Performance",
+        "Ads",
+        "Conversion",
+        "anyword AI",
+        "performance score",
+        "ad optimization",
+        "AI marketing copy",
+        "CTR prediction",
+        "marketing AI"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/anyword.png",
+        "light": "ai-tools/logo/png/anyword.png"
+      }
+    },
+    {
+      "id": 85,
+      "name": "AIVA",
+      "description": "AI music composer that generates original soundtracks for various media projects.",
+      "url": "https://www.aiva.ai/",
+      "categories": [
+        "Audio & Voice"
+      ],
+      "keywords": [
+        "Music composition",
+        "Soundtracks",
+        "Film scoring",
+        "Creative",
+        "Composing",
+        "AIVA AI",
+        "AI composer",
+        "background music",
+        "royalty free music",
+        "emotional music",
+        "game soundtrack"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/aiva.png",
+        "light": "ai-tools/logo/png/aiva.png"
+      }
+    },
+    {
+      "id": 86,
+      "name": "Kits AI",
+      "description": "AI voice platform for musicians, offering voice cloning and a library of AI singing voices.",
+      "url": "https://kits.ai/",
+      "categories": [
+        "Audio & Voice"
+      ],
+      "keywords": [
+        "Voice cloning",
+        "Music",
+        "Singing",
+        "Audio tools",
+        "Musicians",
+        "kits AI",
+        "AI voice changer",
+        "singer AI",
+        "vocal AI",
+        "music production",
+        "AI singing voice"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/kits-ai.png",
+        "light": "ai-tools/logo/png/kits-ai.png"
+      }
+    },
+    {
+      "id": 87,
+      "name": "Topaz Video AI",
+      "description": "Professional software for upscaling, denoising, and restoring video footage using advanced AI models.",
+      "url": "https://www.topazlabs.com/topaz-video-ai",
+      "categories": [
+        "Video & Animation",
+        "Design"
+      ],
+      "keywords": [
+        "Upscaling",
+        "Restoration",
+        "Video enhancement",
+        "Professional",
+        "Quality",
+        "topaz AI",
+        "4K upscale",
+        "video denoising",
+        "video sharpening",
+        "old video restoration",
+        "frame interpolation"
+      ],
+      "pricing": [
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/topaz.svg",
+        "light": "ai-tools/logo/svg/topaz.svg"
+      }
+    },
+    {
+      "id": 88,
+      "name": "Qwen",
+      "description": "Qwen is an advanced AI model for writing, coding, and complex reasoning across text and creative tasks.",
+      "url": "https://chat.qwen.ai/",
+      "categories": [
+        "Text & Writing",
+        "Coding & Dev",
+        "Research & Analysis",
+        "Image Generation",
+        "Video & Animation",
+        "Design"
+      ],
+      "keywords": [
+        "Alibaba",
+        "Qwen",
+        "LLM",
+        "Open Source",
+        "Reasoning",
+        "Chatbot",
+        "Coding",
+        "chat",
+        "image edit",
+        "video generation",
+        "image generate",
+        "presentation"
+      ],
+      "pricing": [
+        "Freemium",
+        "Open Source"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/qwen.png",
+        "light": "ai-tools/logo/png/qwen.png"
+      }
+    },
+    {
+      "id": 89,
+      "name": "Antigravity",
+      "description": "AI-powered platform offering automation, intelligent assistants, and productivity tools to help individuals workflows",
+      "url": "https://antigravity.google/",
+      "categories": [
+        "Productivity",
+        "Automation & Workflows"
+      ],
+      "keywords": [
+        "Artificial Intelligence",
+        "Automation",
+        "AI Assistant",
+        "Machine Learning",
+        "Productivity Tools",
+        "Google DeepMind",
+        "Workflow",
+        "antigravity AI",
+        "AI coding assistant",
+        "agentic AI"
+      ],
+      "pricing": [
+        "Freemium",
+        "Paid"
+      ],
+      "logo": {
+        "light": "ai-tools/logo/png/antigravity.png",
+        "dark": "ai-tools/logo/png/antigravity.png"
+      }
+    },
+    {
+      "id": 90,
+      "name": "ChatEdu",
+      "description": "AI-powered assistant that helps students learn and understand concepts through interactive conversations.",
+      "url": "https://chatedu.io/",
+      "categories": [
+        "Education & Learning",
+        "Productivity"
+      ],
+      "keywords": [
+        "Education",
+        "AI Tutor",
+        "Learning Assistant",
+        "Study Help",
+        "Chatbot",
+        "Student",
+        "Homework",
+        "chatedu AI",
+        "student chatbot",
+        "AI learning platform"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/webp/chatedu.io.webp",
+        "light": "ai-tools/logo/webp/chatedu.io.webp"
+      }
+    },
+    {
+      "id": 91,
+      "name": "FrameNet AI",
+      "description": "AI-powered platform to streamline video creation and motion graphics generation.",
+      "url": "https://www.framenet.ai/",
+      "categories": [
+        "Video & Animation",
+        "Design",
+        "Marketing"
+      ],
+      "keywords": [
+        "Video Creation",
+        "Motion Graphics",
+        "AI Editing",
+        "Text-To-Video",
+        "Animation",
+        "Social Media Video",
+        "framenet AI",
+        "video automation",
+        "AI motion graphics",
+        "video marketing"
+      ],
+      "pricing": [
+        "Freemium",
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/framenet-ai.jpg",
+        "light": "ai-tools/logo/jpg/framenet-ai.jpg"
+      }
+    },
+    {
+      "id": 92,
+      "name": "Manus",
+      "description": "General AI agent for task automation, no-code app building, and complex workflows.",
+      "url": "https://manus.im/",
+      "categories": [
+        "Coding & Dev",
+        "Productivity",
+        "Automation & Workflows"
+      ],
+      "keywords": [
+        "Automation",
+        "No-Code",
+        "AI Agent",
+        "Workflow",
+        "App Builder",
+        "Task Automation",
+        "manus AI",
+        "autonomous agent",
+        "general AI agent",
+        "AI workspace"
+      ],
+      "pricing": [
+        "Freemium",
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/manus-dark.png",
+        "light": "ai-tools/logo/png/manus-light.png"
+      }
+    },
+    {
+      "id": 93,
+      "name": "Wispr Flow",
+      "description": "AI-powered voice dictation tool converting speech to polished, formatted text.",
+      "url": "https://wisprflow.ai/",
+      "categories": [
+        "Audio & Voice",
+        "Productivity",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "Voice Dictation",
+        "Speech-To-Text",
+        "Auto-Formatting",
+        "Accessibility",
+        "Writing Assistant",
+        "Hands-Free Typing",
+        "wispr flow",
+        "AI dictation",
+        "voice writing",
+        "Mac dictation app"
+      ],
+      "pricing": [
+        "Freemium",
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/wispr-flow.png",
+        "light": "ai-tools/logo/png/wispr-flow.png"
+      }
+    },
+    {
+      "id": 94,
+      "name": "OpenClaw",
+      "description": "Open-source, self-hosted autonomous AI assistant acting as a digital employee.",
+      "url": "https://openclaw.ai/",
+      "categories": [
+        "Productivity",
+        "Coding & Dev",
+        "Automation & Workflows"
+      ],
+      "keywords": [
+        "Open Source",
+        "AI Assistant",
+        "Autonomous Agent",
+        "Digital Employee",
+        "Automation",
+        "Self-Hosted",
+        "openclaw AI",
+        "self-hosted AI",
+        "agentic AI",
+        "open source agent"
+      ],
+      "pricing": [
+        "Free",
+        "Paid",
+        "Open Source"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/openclaw.png",
+        "light": "ai-tools/logo/png/openclaw.png"
+      }
+    },
+    {
+      "id": 95,
+      "name": "Turbo AI",
+      "description": "AI-powered study platform converting various contents into structured study materials & flashcards.",
+      "url": "https://www.turbo.ai/",
+      "categories": [
+        "Education & Learning",
+        "Productivity"
+      ],
+      "keywords": [
+        "Study Materials",
+        "Flashcards",
+        "Note Generation",
+        "AI Tutor",
+        "Education",
+        "Quiz",
+        "Exam Prep",
+        "turbo AI",
+        "AI study tool",
+        "student AI"
+      ],
+      "pricing": [
+        "Freemium",
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/turbo-ai.png",
+        "light": "ai-tools/logo/png/turbo-ai.png"
+      }
+    },
+    {
+      "id": 96,
+      "name": "PDP AI",
+      "description": "AI-powered tool that creates personalized development plans for students through guided questionnaires.",
+      "url": "https://pdp-gen-seven.vercel.app/",
+      "categories": [
+        "Education & Learning",
+        "Productivity",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "Personal Development Plan",
+        "PDP",
+        "Education",
+        "Goal Setting",
+        "Career Planning",
+        "Student Growth",
+        "Self Assessment",
+        "pdp AI",
+        "student planner",
+        "academic planning"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/pdp-ai.png",
+        "light": "ai-tools/logo/png/pdp-ai.png"
+      }
+    },
+    {
+      "id": 97,
+      "name": "ZeroGPT",
+      "description": "AI-powered tool that detects AI-generated content and humanizes it.",
+      "url": "https://www.zerogpt.com/",
+      "categories": [
+        "AI Detection & Humanization",
+        "Education & Learning",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "AI Detection",
+        "Humanize AI",
+        "AI Content Detection",
+        "Humanizer",
+        "AI Detector",
+        "zerogpt",
+        "AI text checker",
+        "ChatGPT detector",
+        "paraphrase AI",
+        "bypass AI detection"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/zerogpt.png",
+        "light": "ai-tools/logo/png/zerogpt.png"
+      }
+    },
+    {
+      "id": 98,
+      "name": "AndiSearch",
+      "description": "AI-powered search engine delivering direct, ad-free answers in a conversational format.",
+      "url": "https://andisearch.com/",
+      "categories": [
+        "Research & Analysis",
+        "Productivity"
+      ],
+      "keywords": [
+        "AI Search",
+        "Privacy",
+        "Conversational Search",
+        "Ad-Free",
+        "Question Answering",
+        "Web Search",
+        "andi search",
+        "private search engine",
+        "no ads search",
+        "AI web search"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/andi-search.jpg",
+        "light": "ai-tools/logo/jpg/andi-search.jpg"
+      }
+    },
+    {
+      "id": 99,
+      "name": "Sora",
+      "description": "OpenAI's text-to-video model generating realistic, cinematic video clips from text prompts.",
+      "url": "https://sora.com/",
+      "categories": [
+        "Video & Animation",
+        "Image Generation"
+      ],
+      "keywords": [
+        "OpenAI",
+        "Text-to-video",
+        "Cinematic",
+        "Video generation",
+        "AI filmmaking",
+        "Storyboard",
+        "sora AI",
+        "OpenAI video",
+        "world simulation",
+        "diffusion video",
+        "photorealistic video",
+        "1080p video"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/avif/sora.avif",
+        "light": "ai-tools/logo/avif/sora.avif"
+      }
+    },
+    {
+      "id": 100,
+      "name": "Le Chat",
+      "description": "Mistral AI's conversational assistant for writing, coding, and multilingual reasoning.",
+      "url": "https://chat.mistral.ai/",
+      "categories": [
+        "Text & Writing",
+        "Coding & Dev",
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "Mistral",
+        "Open weight",
+        "European AI",
+        "Multilingual",
+        "Chatbot",
+        "Reasoning",
+        "le chat",
+        "Mistral AI",
+        "French AI",
+        "open source LLM",
+        "Mistral 7B",
+        "Mixtral"
+      ],
+      "pricing": [
+        "Freemium",
+        "Open Source"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/mistral.png",
+        "light": "ai-tools/logo/png/mistral.png"
+      }
+    },
+    {
+      "id": 101,
+      "name": "Bolt.new",
+      "description": "AI-powered full-stack app builder that generates, runs, and deploys web apps from text prompts.",
+      "url": "https://bolt.new/",
+      "categories": [
+        "Coding & Dev",
+        "Design"
+      ],
+      "keywords": [
+        "Full-stack",
+        "App builder",
+        "AI coding",
+        "Web app",
+        "Deployment",
+        "No-code",
+        "bolt AI",
+        "StackBlitz",
+        "prompt to app",
+        "AI web builder",
+        "instant deployment",
+        "full stack AI"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/bolt-new.jpg",
+        "light": "ai-tools/logo/jpg/bolt-new.jpg"
+      }
+    },
+    {
+      "id": 102,
+      "name": "Lovable",
+      "description": "AI-powered app builder to create production-ready web apps through natural language conversations.",
+      "url": "https://lovable.dev/",
+      "categories": [
+        "Coding & Dev",
+        "Design"
+      ],
+      "keywords": [
+        "App builder",
+        "AI development",
+        "Frontend",
+        "Prototyping",
+        "GPT Engineer",
+        "React",
+        "lovable AI",
+        "GPT engineer",
+        "visual builder",
+        "Supabase integration",
+        "AI app creator",
+        "no-code app"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/lovable.png",
+        "light": "ai-tools/logo/png/lovable.png"
+      }
+    },
+    {
+      "id": 103,
+      "name": "Windsurf",
+      "description": "AI-native code editor by Codeium with deep codebase awareness and agentic editing capabilities.",
+      "url": "https://windsurf.com/",
+      "categories": [
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "Codeium",
+        "IDE",
+        "AI coding",
+        "Cascade",
+        "Agentic",
+        "Autocomplete",
+        "windsurf AI",
+        "Codeium editor",
+        "AI code editor",
+        "context-aware IDE",
+        "code assistant",
+        "pair programmer"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/windsurf-dark.png",
+        "light": "ai-tools/logo/svg/windsurf-light.svg"
+      }
+    },
+    {
+      "id": 104,
+      "name": "Devin",
+      "description": "Autonomous AI software engineer by Cognition that can plan, code, debug, and deploy projects end-to-end.",
+      "url": "https://devin.ai/",
+      "categories": [
+        "Coding & Dev",
+        "Automation & Workflows"
+      ],
+      "keywords": [
+        "Cognition",
+        "AI engineer",
+        "Autonomous coding",
+        "Agent",
+        "Software development",
+        "Debugging",
+        "devin AI",
+        "AI software engineer",
+        "autonomous agent",
+        "end-to-end coding",
+        "AI developer",
+        "self-directed coding"
+      ],
+      "pricing": [
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/devin.png",
+        "light": "ai-tools/logo/png/devin.png"
+      }
+    },
+    {
+      "id": 105,
+      "name": "DeepL",
+      "description": "Industry-leading AI translator delivering natural, context-aware translations across 30+ languages.",
+      "url": "https://www.deepl.com/",
+      "categories": [
+        "Translation & Language",
+        "Productivity"
+      ],
+      "keywords": [
+        "Translation",
+        "Localization",
+        "Multilingual",
+        "Document translation",
+        "Language AI",
+        "European",
+        "deepl AI",
+        "deep L",
+        "translate",
+        "language translation",
+        "German translation",
+        "neural translation"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/webp/deepl.webp",
+        "light": "ai-tools/logo/webp/deepl.webp"
+      }
+    },
+    {
+      "id": 106,
+      "name": "Smartcat",
+      "description": "All-in-one AI translation and localization platform connecting teams with linguists and AI agents.",
+      "url": "https://www.smartcat.com/",
+      "categories": [
+        "Translation & Language",
+        "Productivity"
+      ],
+      "keywords": [
+        "Localization",
+        "Translation management",
+        "CAT tool",
+        "Enterprise",
+        "Linguists",
+        "Workflow",
+        "smartcat AI",
+        "translation platform",
+        "TMS",
+        "professional translation",
+        "translation memory"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/smartcat.jpg",
+        "light": "ai-tools/logo/jpg/smartcat.jpg"
+      }
+    },
+    {
+      "id": 107,
+      "name": "Remove bg",
+      "description": "One-click AI background removal tool for photos, with support for bulk processing and API integration.",
+      "url": "https://www.remove.bg/",
+      "categories": [
+        "Image Generation",
+        "Design"
+      ],
+      "keywords": [
+        "Background removal",
+        "Photo editing",
+        "Cutout",
+        "E-commerce",
+        "Transparent",
+        "Bulk processing",
+        "remove background",
+        "bg remover",
+        "image background",
+        "product photography",
+        "AI eraser"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/remove-bg.png",
+        "light": "ai-tools/logo/png/remove-bg.png"
+      }
+    },
+    {
+      "id": 108,
+      "name": "PhotoRoom",
+      "description": "AI photo editor specializing in product photography, background removal, and e-commerce visuals.",
+      "url": "https://www.photoroom.com/",
+      "categories": [
+        "Image Generation",
+        "Marketing"
+      ],
+      "keywords": [
+        "Product photos",
+        "Background removal",
+        "E-commerce",
+        "Listing photos",
+        "Mobile editor",
+        "Batch editing",
+        "photoroom AI",
+        "product photography AI",
+        "Amazon photos",
+        "Etsy photos",
+        "AI photo editor"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/photoroom.png",
+        "light": "ai-tools/logo/png/photoroom.png"
+      }
+    },
+    {
+      "id": 109,
+      "name": "Pixlr",
+      "description": "Free web-based AI photo editor with generative fill, background removal, and one-click enhancements.",
+      "url": "https://pixlr.com/",
+      "categories": [
+        "Image Generation",
+        "Design"
+      ],
+      "keywords": [
+        "Photo editor",
+        "Web-based",
+        "Generative fill",
+        "Enhancement",
+        "Free editor",
+        "Filters",
+        "pixlr AI",
+        "online photo editor",
+        "Photoshop alternative",
+        "AI retouching",
+        "free image editor"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/pixlr.png",
+        "light": "ai-tools/logo/png/pixlr.png"
+      }
+    },
+    {
+      "id": 110,
+      "name": "Magnific AI",
+      "description": "AI image upscaler and enhancer that adds creative detail to photos and artwork at higher resolutions.",
+      "url": "https://magnific.ai/",
+      "categories": [
+        "Image Generation"
+      ],
+      "keywords": [
+        "Upscaling",
+        "Enhancement",
+        "Super resolution",
+        "Photo quality",
+        "Detail generation",
+        "AI art",
+        "magnific AI",
+        "image upscaler",
+        "creative upscaling",
+        "4K upscale",
+        "image enhancer"
+      ],
+      "pricing": [
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/magnific-ai.jpg",
+        "light": "ai-tools/logo/jpg/magnific-ai.jpg"
+      }
+    },
+    {
+      "id": 111,
+      "name": "Clipdrop",
+      "description": "AI-powered creative suite by Stability AI for image cleanup, relighting, upscaling, and background removal.",
+      "url": "https://clipdrop.co/",
+      "categories": [
+        "Image Generation",
+        "Design"
+      ],
+      "keywords": [
+        "Stability AI",
+        "Cleanup",
+        "Relight",
+        "Uncrop",
+        "Background removal",
+        "Photo tools",
+        "clipdrop AI",
+        "image cleanup",
+        "AI retouching",
+        "photo enhancement",
+        "Stable Diffusion API"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/webp/clipdrop.webp",
+        "light": "ai-tools/logo/webp/clipdrop.webp"
+      }
+    },
+    {
+      "id": 112,
+      "name": "Beautiful AI",
+      "description": "Smart presentation software that automatically designs professional slides as you add content.",
+      "url": "https://www.beautiful.ai/",
+      "categories": [
+        "Productivity",
+        "Design"
+      ],
+      "keywords": [
+        "Presentations",
+        "Smart slides",
+        "Auto-design",
+        "Pitch decks",
+        "Templates",
+        "Business",
+        "beautiful AI",
+        "AI presentation",
+        "slide design",
+        "deck builder",
+        "AI slides"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/beautiful-ai.jpg",
+        "light": "ai-tools/logo/jpg/beautiful-ai.jpg"
+      }
+    },
+    {
+      "id": 114,
+      "name": "Reclaim",
+      "description": "AI-powered calendar assistant that auto-schedules tasks, habits, and focus time around your meetings.",
+      "url": "https://reclaim.ai/",
+      "categories": [
+        "Productivity",
+        "Automation & Workflows"
+      ],
+      "keywords": [
+        "Calendar",
+        "Scheduling",
+        "Focus time",
+        "Habits",
+        "Time management",
+        "Google Calendar",
+        "reclaim AI",
+        "AI scheduler",
+        "auto-schedule",
+        "task scheduling",
+        "work-life balance"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/reclaim.png",
+        "light": "ai-tools/logo/png/reclaim.png"
+      }
+    },
+    {
+      "id": 115,
+      "name": "Motion",
+      "description": "AI-powered project management and calendar tool that auto-prioritizes and schedules your work.",
+      "url": "https://www.usemotion.com/",
+      "categories": [
+        "Productivity",
+        "Automation & Workflows"
+      ],
+      "keywords": [
+        "Project management",
+        "Calendar",
+        "Auto-schedule",
+        "Task manager",
+        "Prioritization",
+        "Planning",
+        "motion AI",
+        "AI planner",
+        "task AI",
+        "work scheduler",
+        "daily planning AI"
+      ],
+      "pricing": [
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/motion.png",
+        "light": "ai-tools/logo/png/motion.png"
+      }
+    },
+    {
+      "id": 116,
+      "name": "Otter.ai",
+      "description": "AI meeting assistant that records, transcribes, and summarizes meetings with real-time captions.",
+      "url": "https://otter.ai/",
+      "categories": [
+        "Audio & Voice",
+        "Productivity"
+      ],
+      "keywords": [
+        "Transcription",
+        "Meeting assistant",
+        "Real-time captions",
+        "Notes",
+        "OtterPilot",
+        "Summary",
+        "otter AI",
+        "meeting transcription",
+        "Zoom transcription",
+        "Teams transcription",
+        "voice notes"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/otter-ai.png",
+        "light": "ai-tools/logo/png/otter-ai.png"
+      }
+    },
+    {
+      "id": 117,
+      "name": "Speechify",
+      "description": "AI text-to-speech reader that converts articles, PDFs, and docs into natural-sounding audio.",
+      "url": "https://speechify.com/",
+      "categories": [
+        "Audio & Voice",
+        "Education & Learning"
+      ],
+      "keywords": [
+        "Text-to-speech",
+        "Reading",
+        "Accessibility",
+        "Audiobook",
+        "PDF reader",
+        "Dyslexia",
+        "speechify AI",
+        "read aloud",
+        "listen to articles",
+        "speed reading",
+        "AI reader"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/speechify.png",
+        "light": "ai-tools/logo/png/speechify.png"
+      }
+    },
+    {
+      "id": 118,
+      "name": "Khanmigo",
+      "description": "Khan Academy's AI tutor providing personalized learning guidance, hints, and Socratic-style help.",
+      "url": "https://www.khanacademy.org/khan-labs",
+      "categories": [
+        "Education & Learning"
+      ],
+      "keywords": [
+        "Khan Academy",
+        "AI tutor",
+        "Math",
+        "Science",
+        "Personalized learning",
+        "Socratic",
+        "khanmigo AI",
+        "homework help",
+        "student AI tutor",
+        "K-12 AI",
+        "interactive learning"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/khanmigo.jpg",
+        "light": "ai-tools/logo/jpg/khanmigo.jpg"
+      }
+    },
+    {
+      "id": 119,
+      "name": "Quizlet AI",
+      "description": "AI-enhanced study platform generating flashcards, practice tests, and personalized study plans.",
+      "url": "https://quizlet.com/",
+      "categories": [
+        "Education & Learning",
+        "Productivity"
+      ],
+      "keywords": [
+        "Flashcards",
+        "Study sets",
+        "Q-Chat",
+        "Practice tests",
+        "Memorization",
+        "Students",
+        "quizlet AI",
+        "AI study",
+        "exam prep",
+        "AI flashcards",
+        "spaced repetition"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/quizlet-ai.jpg",
+        "light": "ai-tools/logo/jpg/quizlet-ai.jpg"
+      }
+    },
+    {
+      "id": 120,
+      "name": "Coursera AI",
+      "description": "World's largest online learning platform with AI-powered course recommendations and coaching.",
+      "url": "https://www.coursera.org/",
+      "categories": [
+        "Education & Learning"
+      ],
+      "keywords": [
+        "Online courses",
+        "Certifications",
+        "Universities",
+        "Career",
+        "Skills",
+        "AI Coach",
+        "coursera AI",
+        "MOOC",
+        "university courses",
+        "professional certificates",
+        "e-learning"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/coursera.png",
+        "light": "ai-tools/logo/png/coursera.png"
+      }
+    },
+    {
+      "id": 121,
+      "name": "Make",
+      "description": "Visual automation platform for building complex workflows connecting apps, APIs, and AI models.",
+      "url": "https://www.make.com/",
+      "categories": [
+        "Automation & Workflows",
+        "Productivity"
+      ],
+      "keywords": [
+        "Integromat",
+        "Visual automation",
+        "API",
+        "Workflows",
+        "No-code",
+        "Connectors",
+        "make automation",
+        "make.com",
+        "workflow builder",
+        "Zapier alternative",
+        "scenario automation"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/make.png",
+        "light": "ai-tools/logo/png/make.png"
+      }
+    },
+    {
+      "id": 122,
+      "name": "Lindy",
+      "description": "Personal AI agent builder for creating custom assistants that automate emails, scheduling, and CRM tasks.",
+      "url": "https://www.lindy.ai/",
+      "categories": [
+        "Automation & Workflows",
+        "Productivity"
+      ],
+      "keywords": [
+        "AI agent",
+        "Personal assistant",
+        "Email automation",
+        "CRM",
+        "Custom bots",
+        "No-code",
+        "lindy AI",
+        "AI employee",
+        "workflow bot",
+        "schedule AI",
+        "inbox automation"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/lindy.png",
+        "light": "ai-tools/logo/png/lindy.png"
+      }
+    },
+    {
+      "id": 123,
+      "name": "Meshy AI",
+      "description": "AI-powered text-to-3D and image-to-3D model generator for game assets, prototyping, and design.",
+      "url": "https://www.meshy.ai/",
+      "categories": [
+        "3D & AR/VR",
+        "Image Generation"
+      ],
+      "keywords": [
+        "Text-to-3D",
+        "3D models",
+        "Game assets",
+        "Texturing",
+        "Prototyping",
+        "Mesh generation",
+        "meshy AI",
+        "3D generator",
+        "image-to-3D",
+        "3D modeling AI",
+        "Unity assets"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/meshy-ai.png",
+        "light": "ai-tools/logo/png/meshy-ai.png"
+      }
+    },
+    {
+      "id": 124,
+      "name": "Spline AI",
+      "description": "AI-assisted 3D design tool for creating interactive web experiences, animations, and game prototypes.",
+      "url": "https://spline.design/ai",
+      "categories": [
+        "3D & AR/VR",
+        "Design"
+      ],
+      "keywords": [
+        "3D design",
+        "Interactive",
+        "Web 3D",
+        "Animation",
+        "Prototyping",
+        "Game design",
+        "spline AI",
+        "3D web design",
+        "interactive 3D",
+        "3D animations",
+        "WebGL design"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/spline-ai.png",
+        "light": "ai-tools/logo/png/spline-ai.png"
+      }
+    },
+    {
+      "id": 125,
+      "name": "GPTZero",
+      "description": "Leading AI content detector used by educators and publishers to identify AI-generated text.",
+      "url": "https://gptzero.me/",
+      "categories": [
+        "AI Detection & Humanization",
+        "Education & Learning"
+      ],
+      "keywords": [
+        "AI detection",
+        "Plagiarism",
+        "Academic integrity",
+        "Content verification",
+        "AI writing",
+        "Educators",
+        "gptzero",
+        "AI checker",
+        "ChatGPT detector",
+        "turnitin alternative",
+        "AI text detector"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/gptzero.png",
+        "light": "ai-tools/logo/png/gptzero.png"
+      }
+    },
+    {
+      "id": 126,
+      "name": "Originality.ai",
+      "description": "AI and plagiarism detection platform built for content publishers, SEO professionals, and marketers.",
+      "url": "https://originality.ai/",
+      "categories": [
+        "AI Detection & Humanization",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "AI detection",
+        "Plagiarism checker",
+        "Content authenticity",
+        "SEO",
+        "Publishers",
+        "Readability",
+        "originality AI",
+        "AI content detector",
+        "SEO AI checker",
+        "publisher tool",
+        "GPT-4 detection"
+      ],
+      "pricing": [
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/originality.svg",
+        "light": "ai-tools/logo/svg/originality.svg"
+      }
+    },
+    {
+      "id": 127,
+      "name": "Framer",
+      "description": "AI-powered website builder for designers with auto-generated layouts, copy, and responsive designs.",
+      "url": "https://www.framer.com/",
+      "categories": [
+        "Design",
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "Website builder",
+        "AI layout",
+        "Responsive design",
+        "No-code",
+        "Landing pages",
+        "Portfolio",
+        "framer AI",
+        "AI website",
+        "designer tool",
+        "animations",
+        "CMS"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/framer.svg",
+        "light": "ai-tools/logo/svg/framer.svg"
+      }
+    },
+    {
+      "id": 128,
+      "name": "Stitch",
+      "description": "AI-powered UI design tool (formerly Galileo AI) that generates interactive prototypes and responsive layouts.",
+      "url": "https://labs.google/stitch",
+      "categories": [
+        "Design",
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "Google",
+        "Google Labs",
+        "UI design",
+        "UX",
+        "Generative design",
+        "Figma",
+        "Interface",
+        "Prototyping",
+        "Galileo AI"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/stitch.png",
+        "light": "ai-tools/logo/png/stitch.png"
+      }
+    },
+    {
+      "id": 129,
+      "name": "Viral Sky",
+      "description": "AI toolkit for generating viral social media posts, threads, and images for X, Threads, Facebook, and LinkedIn.",
+      "url": "https://viralsky.ai/",
+      "categories": [
+        "Marketing",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "viral content",
+        "social media posts",
+        "AI writing",
+        "threads",
+        "LinkedIn",
+        "content marketing",
+        "meme generator",
+        "viral sky",
+        "X posts",
+        "AI social media",
+        "viral threads"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/viralsky.svg",
+        "light": "ai-tools/logo/svg/viralsky.svg"
+      }
+    },
+    {
+      "id": 130,
+      "name": "Hyper3D",
+      "description": "AI 3D model generator that creates production-ready meshes from text or images for games, VFX, and AR/VR.",
+      "url": "https://hyper3d.ai/",
+      "categories": [
+        "3D & AR/VR",
+        "Design"
+      ],
+      "keywords": [
+        "3D generation",
+        "Rodin",
+        "game assets",
+        "text-to-3D",
+        "PBR materials",
+        "Unity",
+        "Unreal Engine",
+        "VFX"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/hyper3d.jpg",
+        "light": "ai-tools/logo/jpg/hyper3d.jpg"
+      }
+    },
+    {
+      "id": 131,
+      "name": "Relume",
+      "description": "AI site-planning tool that generates sitemaps and wireframes and exports to Figma, Webflow, and React.",
+      "url": "https://www.relume.io/",
+      "categories": [
+        "Design",
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "sitemap generator",
+        "wireframe",
+        "AI design",
+        "Webflow",
+        "Figma",
+        "React",
+        "component library",
+        "web design"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/relume.jpg",
+        "light": "ai-tools/logo/jpg/relume.jpg"
+      }
+    },
+    {
+      "id": 132,
+      "name": "Sky Snail",
+      "description": "AI thumbnail and social media cover generator optimized for YouTube CTR and platform engagement.",
+      "url": "https://skysnail.io/",
+      "categories": [
+        "Marketing",
+        "Design",
+        "Image Generation"
+      ],
+      "keywords": [
+        "thumbnail generator",
+        "YouTube",
+        "social media",
+        "AI design",
+        "content creator",
+        "4K export",
+        "click-through rate",
+        "sky snail",
+        "YouTube thumbnail AI",
+        "social media cover",
+        "AI thumbnail maker"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/sky-snail.png",
+        "light": "ai-tools/logo/png/sky-snail.png"
+      }
+    },
+    {
+      "id": 133,
+      "name": "Viggle AI",
+      "description": "Real-time AI animation studio that turns videos into animated movies in any style.",
+      "url": "https://viggle.ai/",
+      "categories": [
+        "Video & Animation",
+        "3D & AR/VR",
+        "Image Generation",
+        "Design"
+      ],
+      "keywords": [
+        "video animation",
+        "AI anime",
+        "motion capture",
+        "character animation",
+        "pose control",
+        "avatar animation",
+        "video-to-video",
+        "Image generation"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/viggle-ai.png",
+        "light": "ai-tools/logo/png/viggle-ai.png"
+      }
+    },
+    {
+      "id": 134,
+      "name": "MiniMax Audio",
+      "description": "Advanced AI-powered platform for text-to-speech (TTS), voice cloning, and music generation.",
+      "url": "https://www.minimax.io/audio",
+      "categories": [
+        "Audio & Voice"
+      ],
+      "keywords": [
+        "text-to-speech",
+        "voice cloning",
+        "music generation",
+        "TTS",
+        "MiniMax",
+        "minimax audio",
+        "AI voice platform",
+        "multilingual TTS",
+        "AI narrator",
+        "speech AI"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/minimax-audio.svg",
+        "light": "ai-tools/logo/svg/minimax-audio.svg"
+      }
+    },
+    {
+      "id": 135,
+      "name": "Hailuo AI",
+      "description": "AI video maker that turns text and images into high-quality videos, plus an AI image generator.",
+      "url": "https://hailuoai.video/",
+      "categories": [
+        "Video & Animation",
+        "Image Generation"
+      ],
+      "keywords": [
+        "text-to-video",
+        "image-to-video",
+        "video generation",
+        "image generator",
+        "MiniMax",
+        "hailuo AI",
+        "hailuo video",
+        "Chinese AI video",
+        "AI video maker",
+        "short video AI"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/hailuo-ai.svg",
+        "light": "ai-tools/logo/svg/hailuo-ai.svg"
+      }
+    },
+    {
+      "id": 136,
+      "name": "MiniMax Agent",
+      "description": "Autonomous workspace and intelligent agent platform to automate complex, multi-step tasks.",
+      "url": "https://agent.minimax.io/",
+      "categories": [
+        "Automation & Workflows",
+        "Productivity",
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "autonomous agent",
+        "workspace",
+        "task automation",
+        "multi-agent",
+        "MiniMax",
+        "minimax agent",
+        "AI workspace agent",
+        "autonomous AI",
+        "agentic platform",
+        "AI task manager"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/webp/minimax-agent.webp",
+        "light": "ai-tools/logo/webp/minimax-agent.webp"
+      }
+    },
+    {
+      "id": 137,
+      "name": "GravityWrite",
+      "description": "All-in-one AI content platform with 250+ tools for writing, image generation, video, coding, SEO, humanizing....",
+      "url": "https://app.gravitywrite.com/",
+      "categories": [
+        "Text & Writing",
+        "Marketing",
+        "Image Generation",
+        "Video & Animation",
+        "Coding & Dev",
+        "Research & Analysis",
+        "Education & Learning",
+        "AI Detection & Humanization"
+      ],
+      "keywords": [
+        "AI writing",
+        "blog writer",
+        "copywriting",
+        "SEO content",
+        "marketing copy",
+        "social media",
+        "gravity write",
+        "gravitywrite AI",
+        "AI content writer",
+        "content templates",
+        "blog automation",
+        "ad copy",
+        "email writing",
+        "product description writer",
+        "AI humanizer",
+        "AI image generation",
+        "text-to-image",
+        "anime generator",
+        "image styles",
+        "background removal",
+        "image upscaling",
+        "YouTube tools",
+        "video script",
+        "film making",
+        "movie script writer",
+        "short video",
+        "AI code tools",
+        "code refactoring",
+        "code documentation",
+        "debugging",
+        "AI research paper writer",
+        "SEO tools",
+        "keyword research",
+        "education tools",
+        "lesson planner",
+        "MCQ generator",
+        "course outline",
+        "AI detection bypass",
+        "AI detector bypass",
+        "rewrite article",
+        "plagiarism free",
+        "multilingual",
+        "30 languages",
+        "sales tools",
+        "HR tools",
+        "business templates",
+        "250+ templates",
+        "AI chatbot",
+        "e-commerce tools"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/gravity-write.png",
+        "light": "ai-tools/logo/png/gravity-write.png"
+      }
+    },
+    {
+      "id": 138,
+      "name": "Studley AI",
+      "description": "AI study assistant that turns your notes, PDFs, and videos into flashcards, quizzes, and podcasts for smarter exam prep.",
+      "url": "https://www.studley.ai/",
+      "categories": [
+        "Education & Learning",
+        "Productivity"
+      ],
+      "keywords": [
+        "AI study tool",
+        "flashcard generator",
+        "quiz maker",
+        "active recall",
+        "spaced repetition",
+        "exam prep",
+        "AI note taker",
+        "PDF summarizer",
+        "lecture transcription",
+        "study assistant",
+        "studley AI",
+        "AI tutor",
+        "podcast study",
+        "fill in the blanks",
+        "academic assistant"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/studley-ai.svg",
+        "light": "ai-tools/logo/svg/studley-ai.svg"
+      }
+    },
+    {
+      "id": 139,
+      "name": "Lummi",
+      "description": "Free AI-generated stock photos, illustrations, and 3D assets crafted by global digital artists.",
+      "url": "https://lummi.ai/",
+      "categories": [
+        "Design",
+        "Image Generation"
+      ],
+      "keywords": [
+        "AI stock photos",
+        "free stock images",
+        "AI illustrations",
+        "3D assets",
+        "royalty-free",
+        "lummi",
+        "lummi ai",
+        "AI generated images",
+        "stock photography",
+        "free images",
+        "digital art",
+        "creative assets",
+        "AI artwork"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/lummi.svg",
+        "light": "ai-tools/logo/svg/lummi.svg"
+      }
+    },
+    {
+      "id": 140,
+      "name": "Upscayl",
+      "description": "Free and open-source AI image upscaler for Linux, macOS, and Windows.",
+      "url": "https://upscayl.org/",
+      "categories": [
+        "Design",
+        "Image Generation"
+      ],
+      "keywords": [
+        "image upscaler",
+        "AI upscaling",
+        "image enhancement",
+        "open source",
+        "free upscaler",
+        "upscayl",
+        "super resolution",
+        "4x upscale",
+        "8x upscale",
+        "photo enhancer",
+        "image quality",
+        "desktop app",
+        "local AI",
+        "batch upscaling",
+        "lossless upscaling",
+        "image restoration"
+      ],
+      "pricing": [
+        "Free",
+        "Open Source"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/upscayl.png",
+        "light": "ai-tools/logo/png/upscayl.png"
+      }
+    },
+    {
+      "id": 141,
+      "name": "Poppy AI",
+      "description": "Visual AI workspace for content creators to brainstorm, research, and produce high-performing content on a collaborative canvas.",
+      "url": "https://getpoppy.ai/",
+      "categories": [
+        "Marketing",
+        "Productivity",
+        "Research & Analysis",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "Poppy AI",
+        "visual workspace",
+        "AI canvas",
+        "multiplayer AI",
+        "content creation",
+        "brand voice",
+        "AI brainstorming",
+        "marketing AI",
+        "content strategy",
+        "social media content",
+        "AI whiteboard",
+        "multimodal AI",
+        "YouTube analysis",
+        "PDF analysis",
+        "viral content",
+        "poppy ai"
+      ],
+      "pricing": [
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/poppy-ai.png",
+        "light": "ai-tools/logo/png/poppy-ai.png"
+      }
+    },
+    {
+      "id": 142,
+      "name": "AI Potha",
+      "description": "AI-powered digital textbook assistant designed for Sri Lankan government school students.",
+      "url": "https://ai-potha.pages.dev/",
+      "categories": [
+        "Education & Learning",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "education",
+        "student",
+        "learning",
+        "textbook",
+        "sri lanka",
+        "ai assistant",
+        "ai පොත"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/ai-potha.png",
+        "light": "ai-tools/logo/png/ai-potha.png"
+      }
+    },
+    {
+      "id": 143,
+      "name": "Kimi AI",
+      "description": "AI chatbot by Moonshot AI for long-context reasoning, document analysis, and agentic tasks.",
+      "url": "https://www.kimi.com/",
+      "categories": [
+        "Education & Learning",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "Kimi",
+        "Moonshot AI",
+        "long context",
+        "document analysis",
+        "AI chatbot",
+        "Chinese AI",
+        "agentic AI",
+        "multimodal",
+        "Kimi K2",
+        "reasoning",
+        "web search",
+        "AI assistant",
+        "large context window",
+        "text generation",
+        "research assistant"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/kimi-ai.png",
+        "light": "ai-tools/logo/png/kimi-ai.png"
+      }
+    },
+    {
+      "id": 144,
+      "name": "Playabl",
+      "description": "AI-powered no-code game creation platform that turns text prompts into playable web games and interactive experiences.",
+      "url": "https://playabl.ai/",
+      "categories": [
+        "Coding & Dev",
+        "Design"
+      ],
+      "keywords": [
+        "AI game creator",
+        "no-code game builder",
+        "text-to-game",
+        "web game",
+        "interactive experience",
+        "playabl",
+        "game development AI",
+        "AI prototyping",
+        "no-code",
+        "game engine alternative",
+        "publish game"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/playabl.png",
+        "light": "ai-tools/logo/png/playabl.png"
+      }
+    },
+    {
+      "id": 145,
+      "name": "VoiceEnhancer",
+      "description": "Free AI tool that enhances speech clarity in audio and video files, no login required.",
+      "url": "https://voiceenhancer.ai/",
+      "categories": [
+        "Audio & Voice",
+        "Video & Animation"
+      ],
+      "keywords": [
+        "voice enhancer",
+        "audio enhancer",
+        "AI audio",
+        "speech clarity",
+        "voice improvement",
+        "noise reduction",
+        "audio quality",
+        "podcast enhancer",
+        "video audio",
+        "free audio tool",
+        "no login",
+        "speech enhancement",
+        "voice AI",
+        "audio processing",
+        "VoiceEnhancer"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/voiceenhancer.png",
+        "light": "ai-tools/logo/png/voiceenhancer.png"
+      }
+    }
+  ]
+}
